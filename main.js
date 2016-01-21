@@ -60,4 +60,4 @@ setInterval(function(){
 
 setInterval(function(){
 	combine.start();
-}, 1000*60*60*12)
+}, 1000*60*60*12);
