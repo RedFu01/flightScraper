@@ -40,7 +40,7 @@ console.log(files);
 	  for(var i=0; i< files.length; i++){
 	  	fs.unlink(files[i])
       }
-	  compress();
+	  compress(path);
 	  
   });
 }

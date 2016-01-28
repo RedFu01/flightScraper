@@ -124,7 +124,7 @@ function loadData(bounds,callback){
 		callback(undefined);
 	}
 	}).on('error', function(e) {
-  		console.log("Got error: " + e.message);
+  		console.log("Got error: " + e.message +' @proxy: '+proxy.ip+':'+proxy.port);
 	});
 }
 
